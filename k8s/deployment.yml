@@ -13,11 +13,11 @@ spec:
         app: gpt-app
     spec:
       containers:
-      - name: gpt-app
-        image: khalilelf441/gpt-app:latest
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8080
+        - name: gpt-app
+          image: khanhmhq/gpt-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
   strategy:
     type: RollingUpdate
     rollingUpdate:
@@ -29,9 +29,9 @@ metadata:
   name: gpt-app
 spec:
   ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 8080
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
   selector:
     app: gpt-app
   type: LoadBalancer
