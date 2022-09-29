@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/khanhmhq99/udacity-aws-cloud-devops-capstone/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/khanhmhq99/udacity-aws-cloud-devops-capstone/tree/master)
+
 # Capstone-Global-Package-Tracking
 
 Global package traking (GPT) provides end-to-end inbound and outbound item tracking, helps to plan, implement, and control the movement and storage of goods, services, or information within a supply chain and between the points of origin and consumption.
