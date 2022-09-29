@@ -97,7 +97,7 @@ Run the CircleCi pipeline.
 Make sure that your the local kubernetes this up-to-date with the aws eks cluster by running the command below :
 
 ```sh
-aws eks update-kubeconfig --region us-west-2 --name gpt-app
+aws eks update-kubeconfig --region us-east-1 --name gpt-app
 ```
 
 ## Check deployment

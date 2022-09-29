@@ -15,4 +15,4 @@ nodeGroups:
     desiredCapacity: 3
     volumeSize: 20
     ssh:
-      publicKeyName: capstone_user
+      publicKeyName: capstone
