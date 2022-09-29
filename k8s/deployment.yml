@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gpt-app
-          image: khanhmhq/gpt-app:latest
+          image: khanhmhq/gpt-app:stable
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
